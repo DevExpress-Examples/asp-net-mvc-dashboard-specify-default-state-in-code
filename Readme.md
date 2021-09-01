@@ -12,7 +12,6 @@ The example shows how to specify a [dashboard state](https://docs.devexpress.co
 
 * [CustomDashboardStateService.cs](./CS/MvcDashboard_DefaultDashboardState/App_Start/CustomDashboardStateService.cs) (VB: [CustomDashboardStateService.vb](./VB/MvcDashboard_DefaultDashboardState/App_Start/CustomDashboardStateService.vb))
 * [DashboardConfig.cs](./CS/MvcDashboard_DefaultDashboardState/App_Start/DashboardConfig.cs) (VB: [DashboardConfig.vb](./VB/MvcDashboard_DefaultDashboardState/App_Start/DashboardConfig.vb))
-* [HomeController.cs](./CS/MvcDashboard_DefaultDashboardState/Controllers/HomeController.cs) (VB: [HomeController.vb](./VB/MvcDashboard_DefaultDashboardState/Controllers/HomeController.vb))
 * [Global.asax.cs](./CS/MvcDashboard_DefaultDashboardState/Global.asax.cs) (VB: [Global.asax.vb](./VB/MvcDashboard_DefaultDashboardState/Global.asax.vb))
 * [Index.cshtml](./CS/MvcDashboard_DefaultDashboardState/Views/Home/Index.cshtml)
 <!-- default file list end -->
