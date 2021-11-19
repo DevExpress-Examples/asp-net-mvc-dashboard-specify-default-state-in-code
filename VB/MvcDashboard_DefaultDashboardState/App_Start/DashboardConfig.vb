@@ -9,7 +9,7 @@ Namespace MvcDashboard_DefaultDashboardState
         End Sub
 
         Public Shared Sub RegisterService(ByVal routes As RouteCollection)
-            routes.MapDashboardRoute("dashboardControl","DefaultDashboard", New String() { "MvcDashboard_DefaultDashboardState" })
+            routes.MapDashboardRoute("dashboardControl","DefaultDashboard")
             Dim dashboardFileStorage As New DashboardFileStorage("~/App_Data/Dashboards")
             DashboardConfigurator.Default.SetDashboardStorage(dashboardFileStorage)
 
