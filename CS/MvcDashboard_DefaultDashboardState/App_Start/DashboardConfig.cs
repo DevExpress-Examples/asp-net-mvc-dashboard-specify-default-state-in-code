@@ -5,7 +5,7 @@ using System.Web.Routing;
 namespace MvcDashboard_DefaultDashboardState {
     public static class DashboardConfig {
         public static void RegisterService(RouteCollection routes) {
-            routes.MapDashboardRoute("dashboardControl","DefaultDashboard");
+            routes.MapDashboardRoute("dashboardControl", "DefaultDashboard", new string[] { "MvcDashboard_DefaultDashboardState" });
             DashboardFileStorage dashboardFileStorage = new DashboardFileStorage("~/App_Data/Dashboards");
             DashboardConfigurator.Default.SetDashboardStorage(dashboardFileStorage);
 
